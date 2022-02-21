@@ -1,4 +1,4 @@
-reate database Shopping;
+create database Shopping;
 use Shopping;
 create table products(pid int primary key, pname varchar(50), price int);
 desc products;
