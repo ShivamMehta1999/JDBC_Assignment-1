@@ -22,7 +22,7 @@ Q2.
 select products.pname from cartdata,products where qty*price>50 and products.pid=cartdata.pid;
  Output: Empty set
 
-Q3.
+Q3.Find out the total price to be paid at the time of check out.
 select distinct products.pname,products.pid from products,cartdata where products.pid>3;
  Output:
 +-------------------+-----+
